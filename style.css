@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-image: url(bg3.jpg);
     background-position: center;
     color: rgb(255, 255, 255);
 }
@@ -29,7 +29,7 @@ nav{
 }
 
 section{
-    background-image: url(assets/foodbg.webp);
+    background-image: url(foodbg.webp);
     border-top-left-radius: 1500px;
     border-bottom-right-radius: 1500px;
 }
