@@ -1,0 +1,180 @@
+body{
+    background-image: url("assets/bg3.jpg");
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.row{
+    flex-wrap: wrap;
+}
+.title{
+    font-weight:700;
+    font-style: italic;
+    padding-left: 20px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+nav{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navlink{
+    color: rgb(0, 0, 0);
+}
+
+.navlink:hover{
+    color:white;
+    font-weight: 900;
+}
+
+section{
+    background-image: url(assets/foodbg.webp);
+    border-top-left-radius: 1500px;
+    border-bottom-right-radius: 1500px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #74747400;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 10px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+img{
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f200;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgba(211, 211, 211, 0);
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04aa6d00;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff20;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid rgba(211, 211, 211, 0);
+  }
+  
+  span.price {
+    float: right;
+    color: rgba(128, 128, 128, 0);
+  }
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+footer{
+    background-color: rgb(20, 20, 20);
+}
